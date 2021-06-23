@@ -331,7 +331,7 @@ export default function Header() {
       </HeaderRow>
       <HeaderLinks>
         <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
-          <Trans>Swap</Trans>
+          <Trans>Fund</Trans>
         </StyledNavLink>
         <StyledNavLink
           id={`pool-nav-link`}
@@ -344,13 +344,10 @@ export default function Header() {
             pathname.startsWith('/find')
           }
         >
-          <Trans>Pool</Trans>
+          <Trans>DAO</Trans>
         </StyledNavLink>
-        <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
-          <Trans>Vote</Trans>
-        </StyledNavLink>
-        <StyledExternalLink id={`stake-nav-link`} href={'https://info.uniswap.org'}>
-          <Trans>Charts</Trans>
+        <StyledExternalLink id={`stake-nav-link`} href={'https://yoyodao.flarum.cloud/'}>
+          <Trans>Forum</Trans>
           <sup>↗</sup>
         </StyledExternalLink>
       </HeaderLinks>
